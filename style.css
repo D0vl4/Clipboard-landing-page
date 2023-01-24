@@ -1,0 +1,173 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 21rem;
+    min-height: 100vh;
+    padding: 0 1rem;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 21rem;
+    min-height: 21rem;
+    background-image: url("/Clipboard-landing-page-master/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 5.5rem;
+}
+
+img {
+    max-width: 16rem;
+}
+
+.images_devices,
+.desktop {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.02rem;
+    color: var(--dark-grayish-blue);
+}
+
+h2 {
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.02rem;
+    color: var(--dark-grayish-blue);
+}
+
+h2:hover {
+    color: hsl(201, 11%, 66%);
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: -0.02rem;
+    color: var(--grayish-blue);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.last-p {
+    margin-bottom: 7rem;
+}
+
+.header,
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+input {
+    padding: 1rem 3.5rem;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    background-color: var(--strong-cyan);
+}
+
+.ios {
+    box-shadow: 1px 1px 5px var(--strong-cyan);
+}
+
+.mac {
+    box-shadow: 1px 1px 5px var(--light-blue);
+}
+
+.ios:hover {
+    cursor: pointer;
+    background-color: hsl(169, 44%, 62%);
+}
+
+.mac:hover {
+    cursor: pointer;
+    background-color: hsl(233, 98%, 77%);
+}
+
+input:last-child {
+    background-color: var(--light-blue);
+    margin-bottom: 7rem;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    min-height: 22rem;
+    min-width: 21rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.logo-small {
+    width: 2.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.fb-icon:hover,
+.tw-icon:hover,
+.ig-icon:hover {
+    cursor: pointer;
+    filter: brightness(0%);
+}
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+}
